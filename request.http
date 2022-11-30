@@ -1,0 +1,8 @@
+
+POST http://localhost:3002/dashboard/addClass
+Content-Type: application/json
+
+{
+    "classname":"19ctt2",
+    "describle":" lớp học tuyệt"
+}

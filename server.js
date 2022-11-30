@@ -41,7 +41,7 @@ const connectDB = async () => {
 connectDB();
 
 const app = express();
-const port = 3002;
+const port = process.env.PORT ||3002;
 
 var bodyParser = require("body-parser");
 
